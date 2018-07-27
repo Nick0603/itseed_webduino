@@ -1,8 +1,7 @@
-
 var servo;
 
 
-boardReady({board: 'Smart', device: '10yswpNaV', transport: 'mqtt'}, async function (board) {
+boardReady({board: 'Smart', device: '10ywpNaV', transport: 'mqtt'}, async function (board) {
   board.systemReset();
   board.samplingInterval = 50;
   servo = getServo(board, 14);
