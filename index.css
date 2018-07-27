@@ -1,0 +1,40 @@
+body{
+	position: relative;
+	width:100%;
+	height:100vh;
+}
+.main{
+	position: relative;
+	display: inline-block;
+	padding:1em;
+	top:40%;
+	left:50%;
+	transform: translateX(-50%) translateY(-50%);
+	text-align: center;
+}
+.main .connect-text{
+	font-size:2em;
+}
+
+.main .action-btn{
+	border:2px solid black;
+	background-color:white;
+	font-size:2em;
+	width:80%;
+	margin:0 auto;
+	transition: 0.3s
+}
+.main .action-btn:hover{
+	border:2px solid black;
+	background-color:black;
+	color:white;
+}
+.main .description{
+  font-size:1em;
+  line-height: 2em;
+  text-align: left;
+}
+
+button:hover {
+  box-shadow: 2px 2px 5px #888;
+}

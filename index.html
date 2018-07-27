@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	  <title>資種遠端電梯系統</title>
+	  <script src="https://blockly.webduino.io/lib/jquery-1.9.1.min.js"></script>
+	  <script src="https://blockly.webduino.io/components/webduino-js/dist/webduino-all.min.js"></script>
+	  <script src="https://blockly.webduino.io/lib/webduino-blockly.js"></script>
+	  <script src="https://blockly.webduino.io/lib/firebase.js"></script>
+	  <script src="https://blockly.webduino.io/lib/runtime.min.js"></script>
+	  <link rel="stylesheet" href="index.css">
+	</head>
+
+	<body>
+	  <div class="main"> 
+		  <p class="connect-text">連線狀態：<span id="connected-label">等待連線中... </span></p>
+		  <button id="action-btn" class="action-btn"> 資種電梯按鈕</button>
+		  <p class="description">
+	  		使用方法：</br>
+		  	1.等待確認連線</br>
+		  	2.點選按鈕，九樓資種就有人幫你按向上的電梯囉
+		  </p>
+	  </main>
+	</body>
+  <script src="main.js"></script>
+</html>
