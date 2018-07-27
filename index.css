@@ -22,7 +22,8 @@ body{
 	font-size:2em;
 	width:80%;
 	margin:0 auto;
-	transition: 0.3s
+	transition: 0.3s;
+	cursor: pointer;
 }
 .main .action-btn:hover{
 	border:2px solid black;
